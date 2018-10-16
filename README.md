@@ -1,5 +1,5 @@
 # Android Básico 2018
-projetos trabalhados na disciplina de Android Básico 
+Projetos trabalhados na disciplina de Android Básico.
 
 ## Calculadora Simples
  - EditText (recebimento de valores)
