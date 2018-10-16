@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculadora Simples</string>
+    <string name="valor">Informe um valor</string>
+    <string name="soma">soma</string>
+    <string name="subtracao">subtração</string>
+    <string name="multiplicacao">multiplicação</string>
+    <string name="divisao">divisão</string>
+    <string name="tipoMensagem">Mensagem por aviso</string>
+</resources>

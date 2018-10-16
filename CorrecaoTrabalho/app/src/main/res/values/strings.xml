@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CorrecaoTrabalho</string>
+    <string name="vAlcool">Insira o valor do álcool</string>
+    <string name="vGasolina">Insira o valor da Gasolina</string>
+    <string name="calcular">calcular</string>
+    <string name="valor">Insira um valor</string>
+    <string name="calculo">Escolha a operação</string>
+    <string name="soma">Soma</string>
+    <string name="subtracao">Subtração</string>
+    <string name="multiplicacao">Multiplicação</string>
+    <string name="divisao">Divisão</string>
+    <string name="exibe">Exibe por aviso</string>
+</resources>
