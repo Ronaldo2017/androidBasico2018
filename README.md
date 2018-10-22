@@ -26,3 +26,11 @@ Correcao Trabalho
  - SeekBar (componente arrastável para a esquerda ou direita)
  - RatingBar (estrelas)
  - Toast (mostra aviso na tela por um período de tempo)
+
+Historias de ninar
+ - Exemplo do gerenciador de layout - ConstraintLayout
+ - Spinner
+ - ImageView (alterando a imagem com imagens do drawable)
+ - Notificação simples
+ - Utilização do when
+ - Utilização de métodos ocultos
