@@ -27,10 +27,17 @@ Projetos trabalhados na disciplina de Android Básico.
  - RatingBar (estrelas)
  - Toast (mostra aviso na tela por um período de tempo)
 
-Historias de ninar
+## Historias de ninar
  - Exemplo do gerenciador de layout - ConstraintLayout
  - Spinner
  - ImageView (alterando a imagem com imagens do drawable)
  - Notificação simples
  - Utilização do when
  - Utilização de métodos ocultos
+
+## Cálculos Trabalhistas
+ - Exemplo do gerenciador de layout - ConstraintLayout e Linear Layout com Scroll
+ - Button
+ - Intent para abrir outra página
+ - Botão de voltar no menu
+ - Intent para abrir uma página web
