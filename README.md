@@ -1,7 +1,7 @@
-# androidBasico2018
-projetos trabalhados na disciplina de Android Básico 
+# Android Básico 2018
+Projetos trabalhados na disciplina de Android Básico.
 
-Calculadora Simples
+## Calculadora Simples
  - EditText (recebimento de valores)
  - TextView para mostrar o resultado
  - RadioGroup  e RadioButton
@@ -11,13 +11,13 @@ Calculadora Simples
  - Uso do lateinit
  - funções na classe
 
-Calcula Soma
+## Calcula Soma
  - Exemplo do gerenciador de layout - Linear layout vertical
  - EditText (recebimento de valores)
  - Button com ação no onClick
  - TextView para mostrar o resultado
 
-Correcao Trabalho
+## Correcao Trabalho
  - Exemplo do gerenciador de layout - ConstraintLayout
  - EditText (recebimento de valores)
  - TextView para mostrar o resultado e apresentar alguma informação
