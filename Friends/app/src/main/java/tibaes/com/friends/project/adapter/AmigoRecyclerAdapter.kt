@@ -8,14 +8,14 @@ import android.view.ViewGroup
 import android.widget.TextView
 import kotlinx.android.synthetic.main.item_lista_amigo.view.*
 import tibaes.com.friends.R
+import tibaes.com.friends.project.db.Friend
 
 
 class AmigoRecyclerAdapter internal constructor(context: Context) :
 RecyclerView.Adapter<AmigoRecyclerAdapter.ViewHolder>(){
 
     private val inflater: LayoutInflater = LayoutInflater.from(context)
-    private var amigos = lista()
-            //emptyList<String>() // cachear os elementos
+    private var amigos = emptyList<Friend>() // cachear os elementos
 
     // infla o layout do item da lista para cada componente da lista
     override fun onCreateViewHolder(holder: ViewGroup, position: Int): ViewHolder {
@@ -30,7 +30,7 @@ RecyclerView.Adapter<AmigoRecyclerAdapter.ViewHolder>(){
     // colocando os itens da lista nos itens de view da lista
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val current = amigos[position]
-        holder.nomeAmigo.text = current
+        holder.nomeAmigo.text = current.nome
     }
 
     // classe para mapear os componentes do item da lista
@@ -39,12 +39,18 @@ RecyclerView.Adapter<AmigoRecyclerAdapter.ViewHolder>(){
     }
 
     // lista temporária com os dados a serem trabalhados
-    private fun lista(): List<String>{
+   /* private fun lista(): List<String>{
         return listOf(
                 "Max",
                 "Sabrina",
                 "Alexandre",
                 "Alberto"
         )
+    }
+    */
+
+    fun setFriendList(friendList: List<Friend>){
+        this.amigos = friendList
+        notifyDataSetChanged()
     }
 }
